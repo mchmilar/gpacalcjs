@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+table {
+	width: 260px;
+	border-width: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+td:first-child {
+	width: 120px;
+}
+
+
+td:nth-child(2), td:nth-child(3) {
+	width: 70px;
+}
+
+#interface td {
+	text-align: center;
+	height: 20px;
+}
+
+#interface tr:last-child {
+	height: 40px;
+}
+
+#add, #reset {
+	height: 25px;
+	width: 235px;
+}
+
+#clear {
+	height: 20px;
+	width: 80px;
+	visibility: hidden;
+	margin-left: 23px;
+}
+#credits, #grade {
+	width: 40px;
+}
+
+#name {
+	width: 90px;
+}
+
+ul  {
+	list-style-type:none;	
+}
+
+#gpa {
+	margin: 0px 0px 10px 123px;
+	display: inline-block;
+}
+
+#list td {
+	text-align: left;
+	padding-left: 17px;
+}
+
+#list td:nth-child(2) {
+	padding-left: 21px;
+}
+
+#list {
+	width: 260px;
+}
+
+#list td {
+	height: 23px;
+}
+
+#gpaCalculator {
+	width: 475px;
+	margin: 50px auto 0px auto;
+	background-color: #D4D4D4;
+	border-radius: 20px;
+	padding: 20px 0px;
+}

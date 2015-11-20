@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mark's GPA Calculator</title>
+<script type = "text/javascript" src = "assets/js/gpacalc.js">
+</script>
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<form id="gpaCalculator">
+<table id="interface">
+<tr>
+	<td>
+    Course Name
+    </td>
+    <td>
+    Credits
+    </td>
+    <td>
+    Grade
+    </td>
+</tr>
+
+<tr>
+	<td>
+    <input type="text" id="name">
+    </td>
+    <td>
+    <input type="text" id="credits">
+    </td>
+    <td>
+    <input type="text" id="grade">
+    </td>
+</tr>
+<tr>
+	<td colspan="3">
+    <input name="add" type="button" id="add" value="Add">
+    </td>
+</tr>
+
+</table>
+
+<br />
+
+<table>
+	<tbody id="list"></tbody>
+</table>
+<br />
+<p id="gpa"> </p>
+<input name="clear" type="button" id="clear" value="Clear">
+
+</form>
+
+<!-- Script for registering the event handlers -->
+<script type="text/javascript" src="assets/js/gpacalcr.js">
+</script>
+</body>
+</html>
